@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="shortcut icon" href="">
+
+  <title>Webpack bundling</title>
+</head>
+
+<body>
+  Check the console.
+</body>
+
+<!-- The bundle is in fact *not* an ES6 module (can't include w/ type="module") (it's UMD).
+     The souce can be included from the entry point, but the imports will not resolve 
+     because no bundling and path resolution is occurring. -->
+
+<script src="./dist/bundle.js"></script>
+<!-- <script type="module" src="./src/index.js"></script> -->
+</html>
