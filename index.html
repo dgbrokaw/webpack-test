@@ -10,7 +10,29 @@
 </head>
 
 <body>
-  Check the console.
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-12 col-md-8">Check the console</div>
+    <div class="col-6 col-md-4">Check the console</div>
+  </div>
+  
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4">Check the console</div>
+    <div class="col-6 col-md-4">Check the console</div>
+    <div class="col-6 col-md-4">Check the console</div>
+  </div>
+  
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">Check the console</div>
+    <div class="col-6 alert alert-primary" role="alert">
+      Check the console!
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
 </body>
 
 <!-- The bundle is in fact *not* an ES6 module (can't include w/ type="module") (it's UMD).

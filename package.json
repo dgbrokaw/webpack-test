@@ -11,10 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "algebrite": "^1.1.2",
+    "bootstrap": "^4.1.1",
     "d3": "^3.5.17",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
+    "autoprefixer": "^8.5.2",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
     "webpack": "^4.10.1",
     "webpack-command": "^0.2.0"
   }
